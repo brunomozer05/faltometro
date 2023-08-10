@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faltometro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+
+        <h1 class="icon">Faltometro</h1>
+    </div>
+<div class="content">
+    <div class="content_left">
+        <div class="form-control">
+            <input required="" type="number" id="totalAulas" min="1" step="1">
+            <label  for="totalAulas">
+                <span style="transition-delay:350ms">A</span>
+                <span style="transition-delay:300ms">u</span>
+                <span style="transition-delay:250ms">l</span>
+                <span style="transition-delay:200ms">a</span>
+                <span style="transition-delay:150ms">s</span>
+            </label>
+        </div>
+    </div>
+    <div class="content_center">
+
+        <div class="circular-progress">
+            <div class="value-container">0%</div>
+          </div>
+          <submit onclick="calcularPresenca()" class="submit">Calcular</submit>
+
+    </div>
+    <div class="content_right">
+        <div class="form-control">
+            <input required="" type="number" id="aulasFaltadas" min="0" step="1">
+            <label for="aulasFaltadas">
+                <span style="transition-delay:350ms">F</span>
+                <span style="transition-delay:300ms">a</span>
+                <span style="transition-delay:250ms">l</span>
+                <span style="transition-delay:200ms">t</span>
+                <span style="transition-delay:150ms">a</span>
+                <span style="transition-delay:100ms">s</span>
+            </label>
+    </div>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>
