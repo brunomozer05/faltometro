@@ -6,7 +6,9 @@ body {
   background: #FBCA1F;
   display: flex;
   flex-direction: column;
-
+  font-family: inherit;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  
 }
 
 .header {
@@ -18,10 +20,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
+  
   background-color: #181717 ;
   background: #181717;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+
 
 }
 
@@ -29,6 +32,9 @@ body {
   background-color: #181717;
   width: 10px;
   height: 10px;
+  
+  
+  
 }
 
 .content{
@@ -39,6 +45,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;  
+  
+  
 }
 
 .content_left {
@@ -47,6 +55,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 4px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.2em 0.2em;
 
 }
 
@@ -56,6 +72,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 4px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.2em 0.2em;
 
 }
 
@@ -65,20 +89,30 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-}
-.submit {
-  margin-top: 100px;
-  width: 80px;
-  height: 50px;
   background: #FBCA1F;
   font-family: inherit;
   padding: 0.6em 1.3em;
   font-weight: 900;
   font-size: 18px;
-  border: 3px solid black;
+  border: 4px solid black;
   border-radius: 0.4em;
-  box-shadow: 0.1em 0.1em;
+  box-shadow: 0.2em 0.2em;
+
+}
+.submit {
+  text-align: center;
+  margin-top: 100px;
+  width: 80px;
+  height: 25px;
+  background: #FBCA1F;
+  font-family: inherit;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 4px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.2em 0.2em;
+  
 }
   
 .submit:hover {
@@ -92,8 +126,9 @@ body {
 }
 
 .icon {
+  text-align: center;
   width: 100px;
-  height: 50px;
+  height: 25px;
   background: #FBCA1F;
   font-family: inherit;
   padding: 0.6em 1.3em;
@@ -102,16 +137,20 @@ body {
   border: 3px solid black;
   border-radius: 0.4em;
   box-shadow: 0.1em 0.1em;
+  
+  
 }
 
 .icon:hover {
   transform: translate(-0.05em, -0.05em);
   box-shadow: 0.15em 0.15em
+  
 }
 .form-control {
   position: relative;
   margin: 20px 0 40px;
   width: 190px;
+  
 }
       
 .form-control input {
@@ -169,6 +208,7 @@ body {
   box-shadow: 20px 20px 40px black(60, 60, 150, 0.25);
   display: grid;
   place-items: center;
+  
 }
 .circular-progress {
   position: relative;
@@ -177,6 +217,7 @@ body {
   border-radius: 50%;
   display: grid;
   place-items: center;
+  
 }
 .circular-progress:before {
   content: "";
@@ -185,10 +226,12 @@ body {
   width: 84%;
   background-color: #FBCA1F;
   border-radius: 50%;
+  
 }
 .value-container {
   position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   color: black;
+  
 }
