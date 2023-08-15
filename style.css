@@ -1,9 +1,11 @@
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@300&family=Victor+Mono:wght@700&display=swap');
+  
 body {
   height: 100vh;
   width: 100vw;
   margin: 0;
   padding: 0;
-  background: #FBCA1F;
+  background: linear-gradient(120deg, #B38F00, #FBCA1F, #B38F00) ;
   display: flex;
   flex-direction: column;
   font-family: inherit;
@@ -21,9 +23,6 @@ body {
   align-items: center;
   flex-direction: row;
   
-  background-color: #181717 ;
-  background: #181717;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
 
 
 }
@@ -105,7 +104,7 @@ body {
   width: 80px;
   height: 25px;
   background: #FBCA1F;
-  font-family: inherit;
+  font-family: 'IBM Plex Mono', monospace;
   padding: 0.6em 1.3em;
   font-weight: 900;
   font-size: 18px;
@@ -126,11 +125,11 @@ body {
 }
 
 .icon {
+  font-family: 'IBM Plex Mono', monospace;
   text-align: center;
   width: 100px;
   height: 25px;
   background: #FBCA1F;
-  font-family: inherit;
   padding: 0.6em 1.3em;
   font-weight: 900;
   font-size: 18px;
@@ -230,7 +229,7 @@ body {
 }
 .value-container {
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 50px;
   color: black;
   
