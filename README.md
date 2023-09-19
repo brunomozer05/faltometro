@@ -1,7 +1,7 @@
  <h1 align="center" dir="auto">
 Project dedicated to calculate absences</h1>
 <p align="center" dir="auto">
-  <img src="https://raw.githubusercontent.com/BrunoMozer05/faltometro/main/docs/img/icon.png">
+  <img src="https://raw.githubusercontent.com/BrunoMozer05/faltometro/main/img/icon.png">
   </p>
 Faltometro is a swift and focused web project created using CSS, HTML, and JS within a mere 2-hour timeframe. Its sole purpose is to effortlessly calculate absences.
  <h1>This is How look like</h1>
@@ -9,4 +9,4 @@ Faltometro is a swift and focused web project created using CSS, HTML, and JS wi
   <p align="center" dir="auto">
   <a href="https://brunomozer05.github.io/faltometro/">Project preview </a>
   </p>
-<img src="https://raw.githubusercontent.com/brunomozer05/faltometro/main/docs/img/project.png">
+<img src="https://raw.githubusercontent.com/brunomozer05/faltometro/main/img/project.png">
